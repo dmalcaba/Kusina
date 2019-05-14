@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Common", "src\Kusina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Presentation", "src\Kusina.Presentation\Kusina.Presentation.csproj", "{7449F782-0A4E-4035-8673-A1DF3F2D5761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Infrastructure", "src\Kusina.Infrastructure\Kusina.Infrastructure.csproj", "{93E28AB6-52E4-48AD-BA37-E9531C13A4ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{7449F782-0A4E-4035-8673-A1DF3F2D5761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7449F782-0A4E-4035-8673-A1DF3F2D5761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7449F782-0A4E-4035-8673-A1DF3F2D5761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E28AB6-52E4-48AD-BA37-E9531C13A4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E28AB6-52E4-48AD-BA37-E9531C13A4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E28AB6-52E4-48AD-BA37-E9531C13A4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E28AB6-52E4-48AD-BA37-E9531C13A4ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{7FF8F00F-88F5-406C-B380-642408FECEAC} = {20AE562D-A3E5-4C96-B647-1364C540F178}
 		{0652713A-5A6D-4D3E-95BA-3FDFEBA91D33} = {20AE562D-A3E5-4C96-B647-1364C540F178}
 		{7449F782-0A4E-4035-8673-A1DF3F2D5761} = {20AE562D-A3E5-4C96-B647-1364C540F178}
+		{93E28AB6-52E4-48AD-BA37-E9531C13A4ED} = {20AE562D-A3E5-4C96-B647-1364C540F178}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E35D592-C617-400A-BA88-BA53D3430652}

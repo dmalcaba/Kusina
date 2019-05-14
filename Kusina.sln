@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Persistence", "src\K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Domain", "src\Kusina.Domain\Kusina.Domain.csproj", "{DA8D6EE5-E37F-4B29-B4D0-7C284F9CD87B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusina.Application", "src\Kusina.Application\Kusina.Application.csproj", "{7FF8F00F-88F5-406C-B380-642408FECEAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{DA8D6EE5-E37F-4B29-B4D0-7C284F9CD87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8D6EE5-E37F-4B29-B4D0-7C284F9CD87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8D6EE5-E37F-4B29-B4D0-7C284F9CD87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF8F00F-88F5-406C-B380-642408FECEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF8F00F-88F5-406C-B380-642408FECEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF8F00F-88F5-406C-B380-642408FECEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF8F00F-88F5-406C-B380-642408FECEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9D0A26B2-2225-4C28-B0DB-D98FAF252E6B} = {20AE562D-A3E5-4C96-B647-1364C540F178}
 		{DA8D6EE5-E37F-4B29-B4D0-7C284F9CD87B} = {20AE562D-A3E5-4C96-B647-1364C540F178}
+		{7FF8F00F-88F5-406C-B380-642408FECEAC} = {20AE562D-A3E5-4C96-B647-1364C540F178}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E35D592-C617-400A-BA88-BA53D3430652}

@@ -1,12 +1,10 @@
-﻿using Kusina.Domain.Entities;
+﻿using Kusina.Application.Interfaces;
+using Kusina.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Kusina.Persistence
 {
-    public class KusinaDbContext : DbContext
+    public class KusinaDbContext : DbContext, IKusinaDbContext
     {
         public KusinaDbContext()
         {

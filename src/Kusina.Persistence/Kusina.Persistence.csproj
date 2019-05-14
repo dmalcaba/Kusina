@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kusina.Application\Kusina.Application.csproj" />
     <ProjectReference Include="..\Kusina.Domain\Kusina.Domain.csproj" />
   </ItemGroup>
 

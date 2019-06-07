@@ -14,6 +14,15 @@ namespace Kusina.Persistence
             : base (options)
         {
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            const string connString = "";
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                    .UseSqlServer(connString);
+            }
+        }
 
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Ingredient> Ingredients { get; set; }

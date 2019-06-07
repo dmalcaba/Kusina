@@ -6,7 +6,7 @@ namespace Kusina.Domain.Entities
 {
     public class Step
     {
-        public Guid StedId { get; set; }
+        public Guid StepId { get; set; }
         public int StepOrder { get; set; }
         public string Description { get; set; }
 
